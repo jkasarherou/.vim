@@ -17,6 +17,15 @@ let mapleader = ","
 " center screen
 nnoremap <space> zz
 
+" json settings
+au BufNewFile,BufRead *.json setlocal et ts=2 sw=2
+
+" js settings
+au BufNewFile,BufRead *.js setlocal et ts=4 sw=4
+
+" html settings
+au BufNewFile,BufRead *.html setlocal et ts=2 sw=2
+
 " go settings
 au BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4
 
