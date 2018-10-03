@@ -39,4 +39,7 @@ au FileType go nmap <Leader>t <Plug>(go-test)
 au FileType go nmap <Leader>d <Plug>(go-def)
 au FileType go nmap <Leader>s <Plug>(go-def-split)
 
+" === ctrlp.vim ===
+let g:ctrlp_max_height = 10
+
 " vim:ts=2:sw=2:et
