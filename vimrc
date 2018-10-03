@@ -42,4 +42,8 @@ au FileType go nmap <Leader>s <Plug>(go-def-split)
 " === ctrlp.vim ===
 let g:ctrlp_max_height = 10
 
+" === nerdtree ===
+noremap <Leader>n :NERDTreeToggle<cr>
+let NERDTreeShowHidden = 1
+
 " vim:ts=2:sw=2:et
